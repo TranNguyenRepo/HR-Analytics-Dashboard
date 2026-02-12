@@ -1,0 +1,9 @@
+# Word Cloud Setup for Looker Studio
+1. Open Looker Studio and select the Community Visualizations icon.
+2. Click Explore more visualizations.
+3. Choose Build your own visualization.
+4. In the manifest path field, enter:
+```
+gs://meliorum-visualisations/wordcloud/
+```
+5. Click Submit to complete the setup.
