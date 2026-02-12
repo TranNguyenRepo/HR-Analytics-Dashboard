@@ -1,10 +1,11 @@
 -- SQL code
 -- Author: Tran Nguyen
 -- Date: 2/8/2026
-----------------------------------------
+===========================================
 ---SELECTIVE COLUMNS THAT CAN BE USED---
 -------- USE CTEs TO BUILD A VIEW-------
-----------------------------------------
+===========================================
+
 CREATE OR REPLACE VIEW EMPLOYEE_DATA AS
 
 WITH TEMP AS (
@@ -57,10 +58,10 @@ WHERE
         AND EE_TERMINATION_DATE IS NOT NULL
     ); -- data is not fully updated with EE_TERMINATION_DATE, we will remove those rows to avoid confusion
 
----------------------------------------------------------------------------------------------------------------------------------------------------
-------------------CHECK IF ORIGINAL HIRE DATE != LAST HIRE DATE WHEN TERMINATION IS NULL > CREATE TRANSFERRED DATE COLUMNS-------------------------
-----------------------------------------------------ADD AGGREGATION COLUMNS: TENURE----------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------
+===========================================
+--ADD AGGREGATION COLUMNS: TENURE---
+===========================================
+
 CREATE OR REPLACE VIEW EMPLOYEE_DATA_WT_TENURE_CAL AS
 
 WITH TEMP AS (
@@ -176,9 +177,10 @@ SELECT DISTINCT *,
        ) AS DISTINCT_FLAG
 FROM FLAG
 QUALIFY DISTINCT_FLAG = 1;
----------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------CREATE MASTER CALENDAR----------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------------------
+
+===========================================
+--CREATE MASTER CALENDAR--
+===========================================
 create or replace view TURNOVER_DASHBOARD.PUBLIC.MASTER_CALENDAR(
    CALENDAR_DATE,
    CALENDAR_YEAR,
@@ -214,9 +216,9 @@ SELECT
 FROM DATE_RANGE
 ORDER BY CALENDAR_DATE;
 
---------------------------------------------------------------------------------------------
--------------------------SEMANTIC ANALYS FOR WHY THEY LEAVE---------------------------------
---------------------------------------------------------------------------------------------
+===========================================
+--SEMANTIC ANALYS FOR WHY THEY LEAVE--
+===========================================
 ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
 
 CREATE OR REPLACE VIEW TURNOVER_DASHBOARD.PUBLIC.EXIT_SURVEY_ANALYSIS
