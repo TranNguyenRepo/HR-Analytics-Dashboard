@@ -11,22 +11,15 @@
 - Snapshot of employee distribution across the U.S. with interactive filters
 - Active headcount vs recent hires to evaluate workforce growth
 - Tenure insights to understand retention patterns
-
----
-
-## Active Employees & Hiring Trends (Page 2)
-
-<img width="399" height="309" alt="Active Employees & Hiring Trends" src="https://github.com/user-attachments/assets/7219c712-ad69-4962-a139-d985de1bd897" />
-
-### Summary
-
 - Tracks headcount changes over time
 - Highlights recent hires and onboarding trends
 - Identifies potential retention issues
 
 ---
 
-## Turnover Analysis (Page 3)
+## Active Employees & Hiring Trends (Page 2 & 3)
+
+<img width="399" height="309" alt="Active Employees & Hiring Trends" src="https://github.com/user-attachments/assets/7219c712-ad69-4962-a139-d985de1bd897" />
 
 <img width="343" height="308" alt="Turnover Analysis" src="https://github.com/user-attachments/assets/6d2d25d4-a05f-4579-a57a-26242df3b540" />
 
