@@ -2,11 +2,9 @@
 
 ---
 
-## Workforce Overview
+## Workforce Overview (Page 1)
 
-![Page 1]("C:\Users\julyy\Downloads\Page 1.png")
-
-![Page 2](images/page2.png)
+<img width="409" height="308" alt="Workforce Overview" src="https://github.com/user-attachments/assets/f64fada6-855a-4c8e-b604-8fd8b50660ea" />
 
 ### Summary
 
@@ -16,9 +14,21 @@
 
 ---
 
-## Turnover Analysis
+## Active Employees & Hiring Trends (Page 2)
 
-![Page 3](images/page3.png)
+<img width="399" height="309" alt="Active Employees & Hiring Trends" src="https://github.com/user-attachments/assets/7219c712-ad69-4962-a139-d985de1bd897" />
+
+### Summary
+
+- Tracks headcount changes over time
+- Highlights recent hires and onboarding trends
+- Identifies potential retention issues
+
+---
+
+## Turnover Analysis (Page 3)
+
+<img width="343" height="308" alt="Turnover Analysis" src="https://github.com/user-attachments/assets/6d2d25d4-a05f-4579-a57a-26242df3b540" />
 
 ### Summary
 
@@ -29,9 +39,9 @@
 
 ---
 
-## Exit Survey Analysis
+## Exit Survey Analysis (Page 4)
 
-![Page 4](images/page4.png)
+<img width="413" height="310" alt="Exit Survey Analysis" src="https://github.com/user-attachments/assets/b1b77dac-ba73-4fc3-ac94-ed35bec6b68f" />
 
 ### Summary
 
@@ -48,6 +58,3 @@
 👉 **Open dashboard here:**
 
 [View Looker Studio Dashboard](https://lookerstudio.google.com/s/ijGRuBt9_FY)
-
----
-
