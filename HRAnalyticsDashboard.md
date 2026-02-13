@@ -4,7 +4,7 @@
 
 ## Workforce Overview
 
-![Page 1](images/page1.png)
+![Page 1]("C:\Users\julyy\Downloads\Page 1.png")
 
 ![Page 2](images/page2.png)
 
